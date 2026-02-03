@@ -39,22 +39,17 @@
 body {
     font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Display", "Segoe UI", sans-serif;
     background-color: var(--bg-light);
+    background-image:
+        radial-gradient(circle at 20% 20%, rgba(184, 164, 232, 0.35), transparent 60%),
+        radial-gradient(circle at 70% 10%, rgba(78, 205, 196, 0.25), transparent 55%),
+        radial-gradient(circle at 85% 35%, rgba(255, 107, 53, 0.2), transparent 50%);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
     color: var(--text-primary);
     line-height: 1.65;
     min-height: 100vh;
     position: relative;
-}
-
-body::before {
-    content: "";
-    position: fixed;
-    inset: -20% -30% -20% -30%;
-    background:
-        radial-gradient(circle at 20% 20%, rgba(184, 164, 232, 0.35), transparent 60%),
-        radial-gradient(circle at 70% 10%, rgba(78, 205, 196, 0.25), transparent 55%),
-        radial-gradient(circle at 85% 35%, rgba(255, 107, 53, 0.2), transparent 50%);
-    z-index: 0;
-    pointer-events: none;
 }
 
 main.page {
@@ -66,11 +61,12 @@ main.page {
 }
 
 .logo {
-    width: 92px;
-    height: 92px;
-    border-radius: 24px;
+    width: 64px;
+    height: 64px;
+    border-radius: 18px;
     box-shadow: var(--shadow);
     margin-bottom: 1.25rem;
+    display: block;
 }
 
 h1 {
