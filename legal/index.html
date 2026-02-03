@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cradl by NanthAI</title>
+    <style>
+        :root {
+            --primary: #E57A25;
+            --purple: #6B5B7A;
+            --teal: #4A9B9B;
+            --text: #333;
+            --bg: #FDFBF7;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            padding: 2rem;
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        h1 { 
+            color: var(--primary); 
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        .tagline {
+            color: var(--purple);
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin: 2rem 0;
+            text-align: left;
+        }
+        .feature {
+            background: white;
+            padding: 1rem;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        .feature h3 {
+            color: var(--primary);
+            margin-bottom: 0.5rem;
+        }
+        .links {
+            margin-top: 3rem;
+            padding-top: 2rem;
+            border-top: 1px solid #ddd;
+        }
+        .links a {
+            color: var(--primary);
+            margin: 0 1rem;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .links a:hover {
+            text-decoration: underline;
+        }
+        .badge {
+            margin-top: 2rem;
+        }
+        .badge img {
+            height: 50px;
+        }
+        .contact {
+            margin-top: 2rem;
+            color: #666;
+        }
+        @media (prefers-color-scheme: dark) {
+            :root { --text: #e0e0e0; --bg: #1a1a1a; }
+            .feature { background: #2a2a2a; }
+        }
+    </style>
+</head>
+<body>
+    <h1>Cradl</h1>
+    <p class="tagline">Smart Baby Tracking for Modern Parents</p>
+    
+    <p>Track your baby's feeding, sleep, diapers, and more — all in one beautiful app.</p>
+    
+    <div class="features">
+        <div class="feature">
+            <h3>Quick Logging</h3>
+            <p>Log events with just a tap. Nursing timer, bottle tracking, diaper changes, sleep, and more.</p>
+        </div>
+        <div class="feature">
+            <h3>Smart Reminders</h3>
+            <p>Age-appropriate reminders based on pediatric guidelines. Never miss a feeding or diaper change.</p>
+        </div>
+        <div class="feature">
+            <h3>AI Insights</h3>
+            <p>Daily summaries powered by AI help you spot patterns and understand your baby's routine.</p>
+        </div>
+        <div class="feature">
+            <h3>Family Sharing</h3>
+            <p>Share access with your partner, grandparents, or caregivers via iCloud Family Sharing.</p>
+        </div>
+        <div class="feature">
+            <h3>Widgets</h3>
+            <p>See key info on your Home Screen and Lock Screen. Dynamic Island support for live tracking.</p>
+        </div>
+        <div class="feature">
+            <h3>Privacy First</h3>
+            <p>Your data stays on your devices and iCloud. No tracking, no ads, no data selling.</p>
+        </div>
+    </div>
+    
+    <div class="badge">
+        <!-- App Store badge will go here when the app is live -->
+        <p><em>Coming soon to the App Store</em></p>
+    </div>
+    
+    <div class="links">
+        <a href="support.html">Support</a>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms of Service</a>
+    </div>
+    
+    <div class="contact">
+        <p>Made with care by <strong>NanthAI</strong></p>
+        <p>Contact: <a href="mailto:support@nanthai.tech">support@nanthai.tech</a></p>
+    </div>
+</body>
+</html>
