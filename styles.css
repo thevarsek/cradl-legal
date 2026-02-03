@@ -48,8 +48,7 @@ body {
 body::before {
     content: "";
     position: fixed;
-    inset: -20% -30% auto -30%;
-    height: 60vh;
+    inset: -20% -30% -20% -30%;
     background:
         radial-gradient(circle at 20% 20%, rgba(184, 164, 232, 0.35), transparent 60%),
         radial-gradient(circle at 70% 10%, rgba(78, 205, 196, 0.25), transparent 55%),
@@ -64,6 +63,14 @@ main.page {
     padding: 2.75rem 1.5rem 3.75rem;
     position: relative;
     z-index: 1;
+}
+
+.logo {
+    width: 92px;
+    height: 92px;
+    border-radius: 24px;
+    box-shadow: var(--shadow);
+    margin-bottom: 1.25rem;
 }
 
 h1 {
