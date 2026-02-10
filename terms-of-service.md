@@ -1,6 +1,6 @@
 # Terms of Service
 
-**Last Updated: February 3, 2026**
+**Last Updated: February 10, 2026**
 
 Please read these Terms of Service ("Terms") carefully before using the Cradl mobile application (the "App") operated by NanthAI ("we", "our", or "us").
 
@@ -76,12 +76,14 @@ AI-generated insights and summaries:
 - May not be accurate in all cases
 - Should not replace professional medical advice
 - Are based on patterns in your logged data
+- Are generated using a third-party AI provider (OpenAI) only after you opt in within the app
 
 ## 8. Data & Privacy
 
 Your use of the App is also governed by our Privacy Policy. Key points:
 - Your data is stored locally and in your iCloud account
-- We do not sell or share your data with third parties
+- We do not sell your data
+- If you enable AI features, selected data is shared with OpenAI to generate AI summaries
 - You can export or delete your data at any time
 
 ## 9. Intellectual Property
@@ -125,4 +127,4 @@ If you have questions about these Terms, please contact us at:
 
 ---
 
-*These Terms of Service are effective as of February 3, 2026.*
+*These Terms of Service are effective as of February 10, 2026.*

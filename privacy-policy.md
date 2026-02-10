@@ -1,6 +1,6 @@
 # Privacy Policy
 
-**Last Updated: February 3, 2026**
+**Last Updated: February 10, 2026**
 
 NanthAI ("we", "our", or "us") operates the Cradl mobile application (the "App"). This Privacy Policy explains how we collect, use, and protect your information when you use our App.
 
@@ -19,7 +19,7 @@ When you use Cradl, you may provide:
 ### Information We Do NOT Collect
 - We do **not** collect analytics or usage tracking data
 - We do **not** use advertising identifiers
-- We do **not** sell or share your data with third parties
+- We do **not** sell your data
 - We do **not** collect location data
 - We do **not** collect contact information beyond what you voluntarily enter
 
@@ -29,6 +29,7 @@ Your data is used solely to:
 - Provide the App's core functionality (tracking, reminders, insights)
 - Sync your data across your devices via iCloud
 - Share data with caregivers you explicitly invite via Family Sharing
+- Generate AI insights when you opt in to AI features
 
 ## Data Storage & Security
 
@@ -68,10 +69,12 @@ Cradl uses the following Apple services:
 - **Siri/App Intents**: For voice commands (processed on-device)
 
 ### AI Features
-The App includes optional AI-powered insights:
-- AI summaries are generated using anonymized, aggregated data patterns
-- No personally identifiable information is sent to AI services
-- AI features can be disabled in Settings
+The App includes optional AI-powered insights provided through OpenAI, L.L.C. ("OpenAI"):
+- We ask for your permission in the app before AI features send data to OpenAI
+- When AI features are enabled, we send the data needed to generate summaries and insights, which may include baby profile details, logged events (feeding, sleep, diaper, medication, and growth), notes, and related timestamps
+- You can disable AI features at any time in app Settings to stop future sharing for AI summaries
+- We require third-party providers that process data on our behalf to provide protections that are the same as or stronger than those described in this policy
+- OpenAI's privacy policy is available at: https://openai.com/policies/privacy-policy
 
 ## Your Rights
 
@@ -79,6 +82,7 @@ You have the right to:
 - **Access** your data (via the App or CSV export)
 - **Delete** your data (delete events, babies, or the entire App)
 - **Opt-out** of iCloud sync (use the App in local-only mode)
+- **Withdraw consent** for AI processing at any time in app Settings
 - **Revoke** caregiver sharing at any time
 
 ## Changes to This Policy
@@ -93,4 +97,4 @@ If you have questions about this Privacy Policy, please contact us at:
 
 ---
 
-*This Privacy Policy is effective as of February 3, 2026.*
+*This Privacy Policy is effective as of February 10, 2026.*
